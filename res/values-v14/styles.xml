@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.ActionBar.Solid" />
+    <style name="MyActionBarLight" parent="@android:style/Widget.Holo.Light.ActionBar.Solid" />
+
+    <style name="MyRed" parent="@android:style/Theme.Holo"/>
+    <style name="MyRedLight" parent="@android:style/Theme.Holo.Light"/>
+    
+    <style name="MyBlue" parent="@android:style/Theme.Holo"/>
+    <style name="MyBlueLight" parent="@android:style/Theme.Holo.Light"/>
+    
+    <style name="MyGreen" parent="@android:style/Theme.Holo"/>
+    <style name="MyGreenLight" parent="@android:style/Theme.Holo.Light"/>
+
+</resources>

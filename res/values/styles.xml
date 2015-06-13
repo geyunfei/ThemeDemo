@@ -1,0 +1,53 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="ThemeButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:onClick">onSelectTheme</item>
+    </style>
+
+    <style name="MyActionBar.Red">
+        <item name="android:background">@android:color/holo_red_dark</item>
+    </style>
+    <style name="MyActionBarLight.Red">
+        <item name="android:background">@android:color/holo_red_light</item>
+    </style>
+
+    <style name="MyActionBar.Blue">
+        <item name="android:background">@android:color/holo_blue_dark</item>
+    </style>
+
+    <style name="MyActionBarLight.Blue">
+        <item name="android:background">@android:color/holo_blue_light</item>
+    </style>
+
+    <style name="MyActionBar.Green">
+        <item name="android:background">@android:color/holo_green_dark</item>
+    </style>
+
+    <style name="MyActionBarLight.Green">
+        <item name="android:background">@android:color/holo_green_light</item>
+    </style>
+
+    <style name="MyRed.Theme">
+        <item name="android:actionBarStyle">@style/MyActionBar.Red</item>
+    </style>
+    <style name="MyRedLight.Theme">
+        <item name="android:actionBarStyle">@style/MyActionBarLight.Red</item>
+    </style>
+    
+    <style name="MyBlue.Theme">
+        <item name="android:actionBarStyle">@style/MyActionBar.Blue</item>
+    </style>
+    <style name="MyBlueLight.Theme">
+        <item name="android:actionBarStyle">@style/MyActionBarLight.Blue</item>
+    </style>
+
+    <style name="MyGreen.Theme">
+        <item name="android:actionBarStyle">@style/MyActionBar.Green</item>
+    </style>
+    <style name="MyGreenLight.Theme">
+        <item name="android:actionBarStyle">@style/MyActionBarLight.Green</item>
+    </style>
+
+</resources>
